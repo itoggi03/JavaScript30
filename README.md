@@ -1,6 +1,6 @@
 # javaScript 30 Day Challenge
 
-<img src="C:\Users\KSJ\AppData\Roaming\Typora\typora-user-images\image-20201130004318360.png" alt="image-20201130004318360"  />
+![image-20201130011809946](README.assets/image-20201130011809946.png)
 
 
 
