@@ -1,5 +1,9 @@
 # JavaScript30 - day01
 
+> 해당하는 키를 눌렀을 때 미리 설정해둔 소리가 재생되는 페이지
+>
+> <img src="README.assets/image-20201130181544177.png" alt="image-20201130181544177" style="zoom: 33%;" />
+
 
 
 ## 1. transition, transform
