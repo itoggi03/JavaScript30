@@ -8,3 +8,4 @@
 
 - JavaScript30 : https://javascript30.com/
 
+- 2020.11.29 ~
