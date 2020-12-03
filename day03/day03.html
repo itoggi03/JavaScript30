@@ -9,8 +9,7 @@
 
   <div class="controls">
     <label for="spacing">Spacing:</label>
-    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px" 
-    data-name="wes" data-cool="🍔">
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 
     <label for="blur">Blur:</label>
     <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
@@ -65,8 +64,8 @@
     const inputs = document.querySelectorAll('.controls input');
 
     function handleUpdate() {
+      // suffix에 px 또는 ''(nothing) 을 설정
       const suffix = this.dataset.sizing || '';
-      // console.log(this.name)
       document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
     }
 

@@ -23,3 +23,20 @@
       filter: blur(var(--blur))
     }
 ```
+
+
+
+## dataset
+
+thist.dataset : 해당 요소의 data 속성들을 담고 있다. (data-something 구조로 설정 가능)
+
+```jsx
+<input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px" 
+    data-name="wes" data-cool="🍔">
+```
+
+```jsx
+console.log(this.dataset)
+```
+
+![image-20201203221228656](README.assets/image-20201203221228656.png)
