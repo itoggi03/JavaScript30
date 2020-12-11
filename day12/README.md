@@ -1,0 +1,34 @@
+# Day12
+
+> Key Sequence Detection (KONAMI CODE)
+
+
+
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+<script>
+const pressed = [];
+const secretCode = 'wesbos';
+
+window.addEventListener('keyup', (e) => {
+  console.log(e.key);
+  pressed.push(e.key);
+  pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+  if (pressed.join('').includes(secretCode)) {
+    console.log('DING DING!');
+    cornify_add();
+  }
+  console.log(pressed);
+});
+</script>
+</body>
+</html>
+```
+
